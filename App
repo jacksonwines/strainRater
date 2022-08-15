@@ -1,0 +1,16 @@
+function strainRator() {
+    var promptUserChoiceTHC = prompt('Please enter THC content percentage');
+    var THC = promptUserChoiceTHC;
+    var promptUserChoiceTerps = prompt('Please enter Terp content percentage');
+    var Terps = promptUserChoiceTerps;
+
+if ((THC > 30) && (Terps > 5)) { 
+    console.log('ZAZA')
+} else if ((THC > 20) && (Terps > 3)) {
+    console.log('fire')
+} else if ((THC < 20) || (Terps < 3)) {
+    console.log('mids')    
+    }
+}
+
+strainRator()
